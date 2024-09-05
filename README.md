@@ -47,6 +47,15 @@ Example Plot:
 
 ![plot](./html/main_06.svg)
 
+## For more information:
+- **My Previous File**: (including pdf report)  [![on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)]([https://www.mathworks.com/matlabcentral/fileexchange/70197-private-cody-leaderboard](https://www.mathworks.com/matlabcentral/fileexchange/160188-subsynchronous-resonance-ssr?s_tid=prof_contriblnk))
+![Static Badge](https://img.shields.io/badge/GitHub-black?link=https%3A%2F%2Fgithub.com%2FHamedNajafi74%2FSSR%2F)
+- Kundur, P. (1994). Power System Stability and Control. United States: McGraw-Hill. (https://www.google.fr/books/edition/Power_System_Stability_and_Control/dw1JzwEACAAJ?hl=en)
+- "First benchmark model for computer simulation of subsynchronous resonance," in IEEE Transactions on Power Apparatus and Systems, vol. 96, no. 5, pp. 1565-1572, Sept. 1977, doi: 10.1109/T-PAS.1977.32485.(https://doi.org/10.1109/T-PAS.1977.32485)
+- R. G. Farmer, A. L. Schwalb and E. Katz, "Navajo project report on subsynchronous resonance analysis and solutions," in IEEE Transactions on Power Apparatus and Systems, vol. 96, no. 4, pp. 1226-1232, July 1977, doi: 10.1109/T-PAS.1977.32445.(https://doi.org/10.1109/T-PAS.1977.32445)
+-  Chuang, C.-H., Chiu, B.-K., Lee, K.-Y., Hsu, Y.-Y.: Modal analysis, control of frequency, and torsional modes of microgrid with doubly fed induction generator wind turbines providing frequency support. IET Renew. Power Gener. 17, 2315–2334 (2023). (https://doi.org/10.1049/rpg2.12761)(https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/rpg2.12761)
+- Padiyar, K. (2012). Analysis of Subsynchronous Resonance in Power Systems. Switzerland: Springer US. (https://www.google.fr/books/edition/Analysis_of_Subsynchronous_Resonance_in/ogT3BwAAQBAJ?hl=en&gbpv=0)
+
 
 
 ## 📊 Keywords and Tags
@@ -62,10 +71,4 @@ Example Plot:
 - MATLAB Visualization
 - Mechanical Shaft Dynamics
 - Rotating Mass Inertia
-
----
-
-Feel free to edit specific details such as the repository name, image paths, or add/remove keywords based on your personal setup.
-
-For tags and SEO, I used keywords that are relevant to SSR, modal analysis, MATLAB, and engineering, ensuring that people searching for such tools or concepts will find your repository more easily.
 
