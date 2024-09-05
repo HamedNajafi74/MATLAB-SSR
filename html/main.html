@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>main</title><meta name="generator" content="MATLAB 9.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2024-09-05"><meta name="DC.source" content="main.m"><style type="text/css">
+      --><title>main</title><meta name="generator" content="MATLAB 9.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2024-09-06"><meta name="DC.source" content="main.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -116,7 +116,7 @@ normalized_V =
     0.0211    1.0000   -0.1658   -0.1067    1.0000    0.0005
    -0.0044    1.0000   -0.4868    0.1594   -0.5980   -0.0042
    -0.0095    1.0000   -0.5188    0.1888   -0.7964    1.0000
-</pre><img vspace="5" hspace="5" src="main_01.svg" alt=""> <h2 id="2">Problem 1 (Kundur Fig. 15.3) (a 555 MVA, 3,600 rpm steam turbine generator)</h2><pre class="codeinput">fb = 60;
+</pre><img vspace="5" hspace="5" src="main_01.png" alt=""> <h2 id="2">Problem 1 (Kundur Fig. 15.3) (a 555 MVA, 3,600 rpm steam turbine generator)</h2><pre class="codeinput">fb = 60;
 H = [0.124 , 0.232, 1.155, 1.192, 0.855]; <span class="comment">%(s)</span>
 stiffness = [21.8, 48.4, 75.6,  62.3,  1.98]; <span class="comment">%(pu [torque]/[elec. rad])</span>
 torsional_analysis(fb,H,stiffness)
@@ -160,7 +160,7 @@ normalized_V =
    -0.1480   -0.5000   -0.1819    1.0000    0.3636
     0.0337    0.7090   -0.1588    1.0000   -0.1494
    -0.0074   -0.4325    0.2382    1.0000   -0.6142
-</pre><img vspace="5" hspace="5" src="main_02.svg" alt=""> <h2 id="3">Problem 2 (Kundur Fig. 15.4)(a 960 MVA, 1,800 rpm turbine generator)</h2><pre class="codeinput">fb = 60;
+</pre><img vspace="5" hspace="5" src="main_02.png" alt=""> <h2 id="3">Problem 2 (Kundur Fig. 15.4)(a 960 MVA, 1,800 rpm turbine generator)</h2><pre class="codeinput">fb = 60;
 H = [0.176 , 1.427, 1.428, 1.428, 0.869]; <span class="comment">%(s)</span>
 stiffness = [17.78, 27.66, 31.31,  37.25]; <span class="comment">%(pu [torque]/[elec. rad])</span>
 torsional_analysis(fb,H,stiffness)
@@ -204,7 +204,7 @@ normalized_V =
     0.0456    0.5262    1.0000    1.0000    0.1393
    -0.0186   -0.9988    0.1063    1.0000   -0.5871
     0.0108    1.0000   -0.8416    1.0000   -0.8780
-</pre><img vspace="5" hspace="5" src="main_03.svg" alt=""> <h2 id="4">Problem 3 (Kundur Fig. 15.5)(a 191 MVA, 3,600 rpm turbine generator)</h2><pre class="codeinput">fb = 60;
+</pre><img vspace="5" hspace="5" src="main_03.png" alt=""> <h2 id="4">Problem 3 (Kundur Fig. 15.5)(a 191 MVA, 3,600 rpm turbine generator)</h2><pre class="codeinput">fb = 60;
 H = [0.099 , 0.337, 3.68, 0.946]; <span class="comment">%(s)</span>
 stiffness = [37.95, 81.91, 82.74]; <span class="comment">%(pu [torque]/[elec. rad])</span>
 torsional_analysis(fb,H,stiffness)
@@ -243,7 +243,7 @@ normalized_V =
    -0.5196    1.0000    0.5194   -0.4893
     0.0217    1.0000   -0.0970   -0.1942
    -0.0038    1.0000    0.0877    1.0000
-</pre><img vspace="5" hspace="5" src="main_04.svg" alt=""> <h2 id="5">Problem 4 (Kundur Fig. 15.6)(a 635 MVA, 1,800 rpm turbine generator)</h2><pre class="codeinput">fb = 60;
+</pre><img vspace="5" hspace="5" src="main_04.png" alt=""> <h2 id="5">Problem 4 (Kundur Fig. 15.6)(a 635 MVA, 1,800 rpm turbine generator)</h2><pre class="codeinput">fb = 60;
 H = [0.254 , 0.983, 1.001, 1.009, 1.035, 0.013]; <span class="comment">%(s)</span>
 stiffness = [13.9, 18.2, 25.2, 54.9, 5.7]; <span class="comment">%(pu [torque]/[elec. rad])</span>
 torsional_analysis(fb,H,stiffness)
@@ -292,7 +292,7 @@ normalized_V =
     1.0000   -0.4592    0.0402    0.0396    1.0000    0.0022
     1.0000   -0.6020    0.4234   -0.0847   -0.7069   -0.0146
     1.0000   -0.6196    0.4746   -0.1027   -0.9915    1.0000
-</pre><img vspace="5" hspace="5" src="main_05.svg" alt=""> <h2 id="6">Problem 5 ("First benchmark model for computersimulation of subsynchronous resonance,&#8221; IEEE Trans. Power Apparat.Syst., vol. 96, pp. 1565&#8211;1572, Sept.&#8211;Oct. 1977)(IEEE fisrt benchmark model)</h2><pre class="codeinput">fb=60;
+</pre><img vspace="5" hspace="5" src="main_05.png" alt=""> <h2 id="6">Problem 5 ("First benchmark model for computersimulation of subsynchronous resonance,&#8221; IEEE Trans. Power Apparat.Syst., vol. 96, pp. 1565&#8211;1572, Sept.&#8211;Oct. 1977)(IEEE fisrt benchmark model)</h2><pre class="codeinput">fb=60;
 H = [0.092897 0.155589 0.858670 0.884215 0.868495 0.0342165]; <span class="comment">%(s)</span>
 stiffness = [19.303 34.929 52.038 70.858 2.82]; <span class="comment">%(pu [torque]/[elec. rad])</span>
 torsional_analysis(fb,H,stiffness)
@@ -341,7 +341,7 @@ normalized_V =
     0.0211    1.0000   -0.0955    1.0000   -0.0395    0.1115
    -0.0045   -0.6205    0.1660    1.0000   -0.0374    0.3727
     0.0009    0.3763   -0.2520    1.0000    1.0000    1.0000
-</pre><img vspace="5" hspace="5" src="main_06.svg" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
+</pre><img vspace="5" hspace="5" src="main_06.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Problem 0 (Textbook session 21)
 fb = 50;
