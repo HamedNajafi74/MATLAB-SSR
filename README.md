@@ -49,7 +49,7 @@ Example Plot:
 
 ## For more information:
 - **My Previous File**: (including pdf report) on [![on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/160188-subsynchronous-resonance-ssr?s_tid=prof_contriblnk)
-or [![Static Badge](https://img.shields.io/badge/GitHub-black?link=https%3A%2F%2Fgithub.com%2FHamedNajafi74%2FSSR%2F])
+or [![Static Badge](https://img.shields.io/badge/GitHub-black?link=https%3A%2F%2Fgithub.com%2FHamedNajafi74%2FSSR%2F])](https://github.com/HamedNajafi74/SSR/)
 - Kundur, P. (1994). Power System Stability and Control. United States: McGraw-Hill. (https://www.google.fr/books/edition/Power_System_Stability_and_Control/dw1JzwEACAAJ?hl=en)
 - "First benchmark model for computer simulation of subsynchronous resonance," in IEEE Transactions on Power Apparatus and Systems, vol. 96, no. 5, pp. 1565-1572, Sept. 1977, doi: 10.1109/T-PAS.1977.32485.(https://doi.org/10.1109/T-PAS.1977.32485)
 - R. G. Farmer, A. L. Schwalb and E. Katz, "Navajo project report on subsynchronous resonance analysis and solutions," in IEEE Transactions on Power Apparatus and Systems, vol. 96, no. 4, pp. 1226-1232, July 1977, doi: 10.1109/T-PAS.1977.32445.(https://doi.org/10.1109/T-PAS.1977.32445)
