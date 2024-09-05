@@ -1,7 +1,7 @@
 # Sub-Synchronous Resonance (SSR) Modal Analysis Tool
 
-![Static Badge](https://img.shields.io/badge/Hamed-Najafi-blue)
-![Static Badge](https://img.shields.io/badge/MATLAB%C2%AE-HamedNajafi-blue?style=plastic&logo=MATLAB)
+[![Static Badge](https://img.shields.io/badge/Hamed-Najafi-blue)]()
+[![Static Badge](https://img.shields.io/badge/MATLAB%C2%AE-HamedNajafi-blue?style=plastic&logo=MATLAB)]()
 
 
 
